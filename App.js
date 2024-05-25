@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import React from 'react';
+// import { SafeAreaView, StyleSheet } from 'react-native';
+// import EmailInput from './src/components/EmailInput';
+// import { sendEmail } from './src/api/emailApi';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+// const App = () => {
+//   const handleEmailSubmit = async (email) => {
+//     try {
+//       const data = await sendEmail(email);
+//       console.log('Success:', data);
+//     } catch (error) {
+//       console.error('Error:', error);
+//     }
+//   };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+//   return (
+//     <SafeAreaView style={styles.container}>
+//       <EmailInput onEmailSubmit={handleEmailSubmit} />
+//     </SafeAreaView>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//   },
+// });
+
+// export default App;
+
+
+
+
